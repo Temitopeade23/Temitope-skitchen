@@ -1,20 +1,62 @@
-body {
-    font-family: Arial, sans-serif;
-    background: url('/images/landing-page.png') no-repeat center center fixed;
-    background-size: cover;
-    color: #000;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+/* BIG BOLD TEXT */
+.main-title {
+    font-size: 60px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    margin-top: 20px !important;
+    color: black !important;
 }
 
-.content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
+/* Logo Styling */
+.logo {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 20px !important;
+}
+
+.logo img {
+    width: 250px !important;
+    height: auto !important;
+    border-radius: 10px !important;
+    display: block !important;
+    margin: 20px auto !important;
+}
+
+body {
+    background-color: #F8F5F2 !important; /* Light Cream to Match Logo */
+    text-align: center !important;
+    font-family: Arial, sans-serif !important;
+}
+
+/* Set Background Color to Blend with Logo */
+body {
+    background-color: #F8F5F2 !important; /* Light Cream to Match Logo */
+    text-align: center !important;
+    font-family: Arial, sans-serif !important;
+}
+
+/* Ensure Header Text is Black */
+h1 {
+    color: #000 !important; /* Ensuring Text is Black for Contrast */
+}
+
+/* Softer Black for Readability */
+p, h2 {
+    color: #333 !important;
+}
+
+/* Update Signup Button */
+.signup button {
+    background-color: #000 !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+}
+
+.signup button:hover {
+    background-color: #333 !important;
 }
 
