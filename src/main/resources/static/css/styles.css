@@ -29,12 +29,14 @@ body {
     font-family: Arial, sans-serif !important;
 }
 
-/* Set Background Color to Blend with Logo */
+/* Set Background Color to Yellow */
+/* Adjust Background Color to Match Logo */
 body {
-    background-color: #F8F5F2 !important; /* Light Cream to Match Logo */
+    background-color: #F7DC6F !important; /* Softer Golden Yellow */
     text-align: center !important;
     font-family: Arial, sans-serif !important;
 }
+
 
 /* Ensure Header Text is Black */
 h1 {
