@@ -11,27 +11,42 @@
 
     <name>Temitope's Kitchen</name>
 
+    <!-- Set Java version -->
     <properties>
         <java.version>17</java.version>
-        <spring-boot.version>3.2.0</spring-boot.version> <!-- Ensure latest Spring Boot version -->
+        <spring-boot.version>3.2.0</spring-boot.version> 
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-            <version>${spring-boot.version}</version>
-        </dependency>
-
+        <!-- Spring Boot Web Dependency -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
+
+        <!-- Spring Boot Thymeleaf for HTML templates -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
             <version>${spring-boot.version}</version>
         </dependency>
     </dependencies>
 
     <build>
         <plugins>
+            <!-- Set Maven Compiler Plugin to use Java 17 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                </configuration>
+            </plugin>
+
+            <!-- Spring Boot Maven Plugin -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
