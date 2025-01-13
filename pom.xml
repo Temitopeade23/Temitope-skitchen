@@ -7,7 +7,7 @@
     <groupId>com.temitopekitchen</groupId>
     <artifactId>temitope-kitchen</artifactId>
     <version>1.0.0</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>Temitope's Kitchen</name>
 
